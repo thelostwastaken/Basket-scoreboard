@@ -1,0 +1,36 @@
+body {
+    background-color: blueviolet;
+    margin: 0;
+}
+
+.container {
+    text-shadow: 1px 1px white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#addscore {
+    background-color:transparent;
+    border-color: black;
+    border-width: 3.5px;
+}
+
+#score {
+    border: 3.5px inset white;
+}
+
+#scoreG {
+    border: 3.5px inset white;
+}
+
+.reset-container {
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#resetScore {
+    background-color: transparent;
+}
